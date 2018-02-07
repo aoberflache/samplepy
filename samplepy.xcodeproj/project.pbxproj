@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		A4B17EFD202B1E7700CDC513 /* samplepy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = samplepy.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		A4B17EF2202B1E1A00CDC513 = {
 			isa = PBXGroup;
 			children = (
+				A4B17EFD202B1E7700CDC513 /* samplepy.py */,
 			);
 			sourceTree = "<group>";
 		};
@@ -22,7 +27,8 @@
 			buildConfigurationList = A4B17EFA202B1E1A00CDC513 /* Build configuration list for PBXLegacyTarget "samplepy" */;
 			buildPhases = (
 			);
-			buildToolPath = /Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6;
+			buildToolPath = /usr/bin/python;
+			buildWorkingDirectory = "";
 			dependencies = (
 			);
 			name = samplepy;
