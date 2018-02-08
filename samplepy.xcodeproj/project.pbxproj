@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		A4B17EFD202B1E7700CDC513 /* samplepy.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; lineEnding = 0; path = samplepy.py; sourceTree = "<group>"; };
+		A4B17EFF202B502000CDC513 /* crypt_currency_graph.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = crypt_currency_graph.py; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -15,6 +16,7 @@
 			isa = PBXGroup;
 			children = (
 				A4B17EFD202B1E7700CDC513 /* samplepy.py */,
+				A4B17EFF202B502000CDC513 /* crypt_currency_graph.py */,
 			);
 			sourceTree = "<group>";
 		};

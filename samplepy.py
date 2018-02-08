@@ -17,7 +17,7 @@ def ticker():
 
 
 def lineAlert(message):
-    LINE_ACCESS_TOKEN="JPIz4drvmV7SS82j4hyYFJO4ldVLVeLDyRCp4zW1XSe"
+    LINE_ACCESS_TOKEN=""
     url = "https://notify-api.line.me/api/notify"
     msg = urlencode({"message":message})
     LINE_HEADERS = {'Content-Type':'application/x-www-form-urlencoded',"Authorization":"Bearer "+LINE_ACCESS_TOKEN}

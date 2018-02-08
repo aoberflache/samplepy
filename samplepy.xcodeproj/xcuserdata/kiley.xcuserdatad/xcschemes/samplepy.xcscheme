@@ -59,6 +59,10 @@
       <CommandLineArguments>
          <CommandLineArgument
             argument = "samplepy.py"
+            isEnabled = "NO">
+         </CommandLineArgument>
+         <CommandLineArgument
+            argument = "crypt_currency_graph.py"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
